@@ -1,0 +1,54 @@
+.collection {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 235px;
+}
+.collection .imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  width: 250px;
+  height: 157px;
+  cursor: pointer;
+}
+.collection .imgWrapper .img1 {
+  width: 157px;
+  height: 157px;
+}
+.collection .imgWrapper .img1 img {
+  width: 157px;
+}
+.collection .imgWrapper .img2VsImg3 {
+  border-left: 1px solid white;
+  width: 90px;
+  height: 157px;
+}
+.collection .imgWrapper .img2 {
+  width: 90px;
+  height: 77px;
+}
+.collection .imgWrapper .img2 img {
+  width: 90px;
+}
+.collection .imgWrapper .img3 {
+  width: 90px;
+  height: 77px;
+}
+.collection .imgWrapper .img3 img {
+  border-top: 1px solid white;
+  width: 90px;
+}
+
+.collection .textDetailCollection {
+  width: 250px;
+  height: 62px;
+}
+
+.justOnePin {
+  width: 250px;
+}

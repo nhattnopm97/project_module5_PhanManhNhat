@@ -1,0 +1,133 @@
+.WrapperProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.WrapperProfile .wrapperAvartar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.WrapperProfile .wrapperAvartar img {
+  width: 100px;
+}
+
+.WrapperProfile .userNameWrapper {
+  text-align: center;
+  color: rgb(113, 113, 113);
+}
+
+.WrapperProfile .descriptionYourSelft {
+  width: 500px;
+  height: 70px;
+  white-space: normal; /* Ngăn các dòng xuống hàng */
+  text-align: center;
+  overflow: hidden; /* Ẩn phần vượt quá khung giới hạn */
+  text-overflow: ellipsis; /* Hiển thị dấu ba chấm (...) cho phần vượt quá khung giới hạn */
+}
+.WrapperProfile .descriptionYourSelft span {
+  text-align: center;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.WrapperProfile .subcriberWrapper {
+  margin-top: 30px;
+}
+
+.WrapperProfile .contactWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.WrapperProfile .contactWrapper .message {
+  background-color: rgb(213, 213, 213);
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-size: larger;
+  cursor: pointer;
+}
+.WrapperProfile .contactWrapper .message:hover {
+  background-color: rgb(121, 121, 121);
+}
+
+.WrapperProfile .contactWrapper .subcribeblack {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-size: larger;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+}
+.WrapperProfile .contactWrapper .subcribered {
+  background-color: rgb(245, 40, 40);
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-size: larger;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+}
+.WrapperProfile .contactWrapper .subcribered:hover {
+  background-color: rgb(195, 71, 71);
+}
+
+.WrapperProfile .contactWrapper .more {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+.WrapperProfile .contactWrapper .more:hover {
+  background-color: rgb(183, 183, 183);
+}
+
+.WrapperProfile .menuWrapper {
+  position: sticky;
+  top: 30px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+}
+.WrapperProfile .menuWrapper .create {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.WrapperProfile .menuWrapper .create:hover {
+  background-color: rgb(165, 165, 165);
+}
+.WrapperProfile .menuWrapper .save {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 30px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.WrapperProfile .menuWrapper .save:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+.WrapperProfile .savedCollection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}

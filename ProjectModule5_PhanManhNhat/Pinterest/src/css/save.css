@@ -1,0 +1,61 @@
+.wrapperSaved {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperSaved .buttonTune {
+  float: left;
+  display: flex;
+  cursor: pointer;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.wrapperSaved .buttonTune:hover {
+  background-color: rgb(213, 213, 213);
+}
+.wrapperSaved .buttonAdd {
+  float: right;
+
+  display: flex;
+  cursor: pointer;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.wrapperSaved .buttonAdd:hover {
+  background-color: rgb(213, 213, 213);
+}
+
+.contentWrapperNoPin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentWrapperNoPin button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.contentWrapperNoPin button:hover {
+  background-color: rgb(213, 213, 213);
+}
+
+.collectionWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

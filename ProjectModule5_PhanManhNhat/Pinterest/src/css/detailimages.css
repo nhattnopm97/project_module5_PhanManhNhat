@@ -1,0 +1,38 @@
+.detailIMG {
+  -webkit-box-shadow: 3px 3px 23px 0px #000000;
+  box-shadow: 3px 3px 23px 0px #000000;
+}
+
+/* .relateContainer {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  justify-content: center;
+}
+.relateContainer .containerOfRelate {
+  column-gap: 1px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto hidden;
+} */
+
+/* .mainBoardcontainer {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  padding-left: 8px;
+  justify-content: center;
+}
+
+.litleWrapper {
+  column-gap: 2px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto hidden;
+} */

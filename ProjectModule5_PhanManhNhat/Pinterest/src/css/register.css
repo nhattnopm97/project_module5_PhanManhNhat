@@ -1,0 +1,91 @@
+.signupWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.signupWrapper .formWrapper {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.signupWrapper .formWrapper .iconRegisterWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupWrapper .formWrapper .iconRegisterWrapper .closeIconRegister {
+  position: absolute;
+  left: 220px;
+  cursor: pointer;
+}
+
+.signupWrapper .formWrapper .iconRegisterWrapper .titleRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupWrapper .formWrapper .iconRegisterWrapper .titleRegister span {
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .email {
+  width: 268px;
+  overflow: hidden;
+}
+.form .wrapperInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 268px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(133, 133, 133);
+  overflow: hidden;
+}
+.form .wrapperInput input {
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.psw {
+  position: relative;
+}
+.form .wrapperInput .password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.submitButton {
+  width: 268px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: white;
+}
+.submitButton:hover {
+  background-color: rgb(70, 1, 1);
+}
+
+.notifyRegister {
+  color: red;
+}

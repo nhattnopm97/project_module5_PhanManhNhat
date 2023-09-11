@@ -1,0 +1,90 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.mainContainer .cltAvt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .cltAvt .clt {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.mainContainer .cltAvt .avt {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.mainContainer .cltAvt .avt img {
+  width: 70px;
+}
+
+.mainContainer .qttPAS {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+.mainContainer .qttPAS .qttPina {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mainContainer .qttPAS .sortIC {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mainBoardcontainer {
+  column-gap: 1px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto hidden;
+}
+
+@media (min-width: 0px) and (max-width: 756px) {
+  .mainBoardcontainer {
+    max-width: 504px;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 757px) and (max-width: 1007px) {
+  .mainBoardcontainer {
+    max-width: 757px;
+    column-count: 3;
+  }
+}
+@media (min-width: 1008px) and (max-width: 1259px) {
+  .mainBoardcontainer {
+    max-width: 1259px;
+    column-count: 4;
+  }
+}
+@media (min-width: 1260px) and (max-width: 1511px) {
+  .mainBoardcontainer {
+    max-width: 1511px;
+    column-count: 5;
+  }
+}
+@media (min-width: 1512px) and (max-width: 1763px) {
+  .mainBoardcontainer {
+    max-width: 1763px;
+    column-count: 6;
+  }
+}
+@media (min-width: 1764px) and (max-width: 2015px) {
+  .mainBoardcontainer {
+    max-width: 2015px;
+    column-count: 7;
+  }
+}

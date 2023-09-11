@@ -1,0 +1,178 @@
+.profileContainer {
+  height: 900px;
+  display: flex;
+  margin-left: 20px;
+}
+.profileContainer .choosenContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.profileContainer .choosenContainer div {
+  cursor: pointer;
+  width: 230px;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profileContainer .choosenContainer div .itemInChoosen {
+  color: black;
+  text-decoration: none;
+}
+
+.activeClick {
+  position: sticky;
+  top: 200px;
+}
+
+.informationProfile {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.informationProfile .itemInformation {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.avatarSetting {
+  display: flex;
+  align-items: center;
+}
+
+.avatarSetting button:hover {
+  opacity: 0.8;
+}
+
+.nameWrapper {
+  margin-top: 10px;
+  display: flex;
+}
+.nameWrapper div {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameWrapper div div {
+  width: 250px;
+  font-size: 14px;
+  height: auto;
+  text-align: left;
+}
+
+.nameWrapper div .inputNameWrapper {
+  width: 240px;
+  height: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: rgb(170, 170, 170) 2px solid;
+}
+.nameWrapper div .inputNameWrapper input {
+  width: 230px;
+  height: 48px;
+  border: none;
+  outline: none;
+}
+
+.introduce {
+  width: 500px;
+  height: 116px;
+}
+.introduce span {
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+}
+.introduce div {
+  width: 500px;
+  height: 92px;
+  border: rgb(170, 170, 170) 2px solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.introduce div textarea {
+  padding: 3px;
+  width: 495px;
+  height: 92px;
+  border: none;
+  outline: none;
+}
+
+.websiteWrapper {
+  width: 500px;
+}
+.websiteWrapper span {
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+}
+.websiteWrapper div {
+  width: 500px;
+  border: rgb(170, 170, 170) 2px solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.websiteWrapper div input {
+  padding: 3px;
+  width: 495px;
+  border: none;
+  outline: none;
+}
+
+.userNameWrapper {
+  width: 500px;
+}
+.userNameWrapper span {
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+}
+.userNameWrapper div {
+  width: 500px;
+  border: rgb(170, 170, 170) 2px solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.userNameWrapper div input {
+  padding: 3px;
+  width: 495px;
+  border: none;
+  outline: none;
+}
+
+.settingAndSave {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  -webkit-box-shadow: 0px -3px 30px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: 0px -3px 30px 0px rgba(0, 0, 0, 0.66);
+}
+.settingAndSave button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: rgb(188, 188, 188);
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.settingAndSave .updating {
+  background-color: rgb(245, 40, 40);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
